@@ -1,0 +1,454 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Classic Omelette",
+      "ingredients": ["eggs", "onions", "salt", "pepper", "butter", "oil"],
+      "instructions": "1. Beat 2-3 eggs in a bowl with salt and pepper. 2. Heat butter in a pan. 3. Add chopped onions and sauté until soft. 4. Pour beaten eggs over onions. 5. Cook until set, fold in half. Serve hot.",
+      "cuisine": "International",
+      "prep_time": "10 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 2,
+      "name": "Egg Fried Rice",
+      "ingredients": ["rice", "eggs", "onions", "garlic", "soy sauce", "oil", "vegetables"],
+      "instructions": "1. Cook rice and let it cool. 2. Scramble eggs and set aside. 3. Stir-fry chopped onions and garlic. 4. Add rice and vegetables. 5. Mix in scrambled eggs and soy sauce. 6. Stir-fry for 3-4 minutes. Serve hot.",
+      "cuisine": "Asian",
+      "prep_time": "20 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 3,
+      "name": "Egg Curry",
+      "ingredients": ["eggs", "onions", "tomatoes", "ginger", "garlic", "curry powder", "oil", "salt"],
+      "instructions": "1. Boil eggs and peel them. 2. Sauté onions, ginger, and garlic. 3. Add chopped tomatoes and curry powder. 4. Cook until oil separates. 5. Add water and bring to boil. 6. Add boiled eggs and simmer for 10 minutes. Serve with rice or bread.",
+      "cuisine": "Indian",
+      "prep_time": "30 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 4,
+      "name": "Scrambled Eggs",
+      "ingredients": ["eggs", "milk", "butter", "salt", "pepper"],
+      "instructions": "1. Beat eggs with milk, salt, and pepper. 2. Melt butter in a pan over medium heat. 3. Pour egg mixture. 4. Gently stir with a spatula until soft curds form. 5. Remove from heat while still slightly creamy. Serve immediately.",
+      "cuisine": "International",
+      "prep_time": "5 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 5,
+      "name": "Vegetable Stir Fry",
+      "ingredients": ["vegetables", "garlic", "ginger", "soy sauce", "oil", "salt"],
+      "instructions": "1. Heat oil in a wok. 2. Add minced garlic and ginger. 3. Add chopped vegetables (carrots, bell peppers, broccoli). 4. Stir-fry on high heat for 5-7 minutes. 5. Add soy sauce and salt. 6. Toss well and serve hot.",
+      "cuisine": "Asian",
+      "prep_time": "15 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 6,
+      "name": "Chicken Curry",
+      "ingredients": ["chicken", "onions", "tomatoes", "ginger", "garlic", "curry powder", "yogurt", "oil"],
+      "instructions": "1. Marinate chicken with yogurt and spices. 2. Sauté onions, ginger, garlic. 3. Add tomatoes and curry powder. 4. Add marinated chicken and cook until done. 5. Add water and simmer for 20 minutes. Serve with rice.",
+      "cuisine": "Indian",
+      "prep_time": "45 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 7,
+      "name": "Tomato Soup",
+      "ingredients": ["tomatoes", "onions", "garlic", "cream", "butter", "salt", "pepper"],
+      "instructions": "1. Sauté onions and garlic in butter. 2. Add chopped tomatoes and cook until soft. 3. Blend until smooth. 4. Add cream, salt, and pepper. 5. Simmer for 10 minutes. Serve hot with bread.",
+      "cuisine": "International",
+      "prep_time": "25 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 8,
+      "name": "Pasta Carbonara",
+      "ingredients": ["pasta", "eggs", "bacon", "parmesan cheese", "garlic", "pepper", "salt"],
+      "instructions": "1. Cook pasta according to package. 2. Fry bacon until crispy. 3. Beat eggs with grated parmesan. 4. Toss hot pasta with bacon and garlic. 5. Remove from heat and mix in egg mixture quickly. 6. Season with pepper and serve.",
+      "cuisine": "Italian",
+      "prep_time": "20 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 9,
+      "name": "Fried Rice",
+      "ingredients": ["rice", "vegetables", "onions", "garlic", "soy sauce", "oil"],
+      "instructions": "1. Use day-old cooked rice. 2. Heat oil in a wok. 3. Stir-fry onions and garlic. 4. Add mixed vegetables. 5. Add rice and break up clumps. 6. Add soy sauce and stir-fry for 5 minutes. Serve hot.",
+      "cuisine": "Asian",
+      "prep_time": "15 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 10,
+      "name": "Chicken Tikka",
+      "ingredients": ["chicken", "yogurt", "ginger", "garlic", "tikka masala", "lemon", "oil"],
+      "instructions": "1. Marinate chicken with yogurt, spices, and lemon juice for 2 hours. 2. Thread chicken onto skewers. 3. Grill or bake at 200°C for 20-25 minutes. 4. Baste with oil occasionally. Serve with mint chutney.",
+      "cuisine": "Indian",
+      "prep_time": "30 minutes (plus marination)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 11,
+      "name": "Pancakes",
+      "ingredients": ["flour", "eggs", "milk", "sugar", "butter", "baking powder", "salt"],
+      "instructions": "1. Mix flour, sugar, baking powder, and salt. 2. Beat eggs with milk. 3. Combine wet and dry ingredients. 4. Heat butter in a pan. 5. Pour batter and cook until bubbles form. 6. Flip and cook until golden. Serve with syrup.",
+      "cuisine": "American",
+      "prep_time": "20 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 12,
+      "name": "French Toast",
+      "ingredients": ["bread", "eggs", "milk", "cinnamon", "vanilla", "butter", "sugar"],
+      "instructions": "1. Beat eggs with milk, cinnamon, and vanilla. 2. Dip bread slices in egg mixture. 3. Heat butter in a pan. 4. Fry bread until golden on both sides. 5. Sprinkle with sugar. Serve with maple syrup.",
+      "cuisine": "French",
+      "prep_time": "15 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 13,
+      "name": "Vegetable Soup",
+      "ingredients": ["vegetables", "onions", "garlic", "tomatoes", "vegetable broth", "herbs", "salt"],
+      "instructions": "1. Sauté onions and garlic. 2. Add chopped vegetables (carrots, celery, potatoes). 3. Add tomatoes and broth. 4. Simmer for 30 minutes. 5. Season with herbs and salt. Serve hot with bread.",
+      "cuisine": "International",
+      "prep_time": "40 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 14,
+      "name": "Grilled Cheese Sandwich",
+      "ingredients": ["bread", "cheese", "butter"],
+      "instructions": "1. Butter one side of each bread slice. 2. Place cheese between bread slices (butter side out). 3. Grill in a pan over medium heat. 4. Flip when golden brown. 5. Cook until cheese melts. Serve hot.",
+      "cuisine": "American",
+      "prep_time": "10 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 15,
+      "name": "Dal Tadka",
+      "ingredients": ["lentils", "onions", "tomatoes", "ginger", "garlic", "cumin", "ghee", "salt"],
+      "instructions": "1. Cook lentils until soft. 2. Heat ghee and add cumin seeds. 3. Add onions, ginger, garlic, and sauté. 4. Add tomatoes and cook. 5. Pour over cooked lentils. 6. Simmer for 10 minutes. Serve with rice or roti.",
+      "cuisine": "Indian",
+      "prep_time": "35 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 16,
+      "name": "Chicken Noodle Soup",
+      "ingredients": ["chicken", "noodles", "carrots", "celery", "onions", "chicken broth", "garlic"],
+      "instructions": "1. Cook chicken in broth until tender. 2. Remove chicken and shred. 3. Sauté onions, carrots, and celery. 4. Add back to broth with noodles. 5. Cook until noodles are done. 6. Add shredded chicken. Serve hot.",
+      "cuisine": "American",
+      "prep_time": "40 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 17,
+      "name": "Margherita Pizza",
+      "ingredients": ["pizza dough", "tomatoes", "mozzarella cheese", "basil", "olive oil", "salt"],
+      "instructions": "1. Roll out pizza dough. 2. Spread crushed tomatoes. 3. Add sliced mozzarella and basil leaves. 4. Drizzle with olive oil and season with salt. 5. Bake at 220°C for 12-15 minutes. Serve hot.",
+      "cuisine": "Italian",
+      "prep_time": "25 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 18,
+      "name": "Vegetable Biryani",
+      "ingredients": ["rice", "vegetables", "onions", "yogurt", "biryani masala", "saffron", "ghee"],
+      "instructions": "1. Soak rice for 30 minutes. 2. Sauté vegetables with onions and spices. 3. Layer rice and vegetables. 4. Add saffron milk and ghee. 5. Cover and cook on low heat for 20 minutes. Serve with raita.",
+      "cuisine": "Indian",
+      "prep_time": "50 minutes",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 19,
+      "name": "Caesar Salad",
+      "ingredients": ["lettuce", "parmesan cheese", "croutons", "caesar dressing", "garlic", "lemon"],
+      "instructions": "1. Tear lettuce into bite-sized pieces. 2. Toss with Caesar dressing. 3. Add grated parmesan and croutons. 4. Mix well. 5. Garnish with more parmesan. Serve immediately.",
+      "cuisine": "American",
+      "prep_time": "15 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 20,
+      "name": "Butter Chicken",
+      "ingredients": ["chicken", "butter", "cream", "tomatoes", "onions", "ginger", "garlic", "spices"],
+      "instructions": "1. Marinate chicken with yogurt and spices. 2. Grill chicken pieces. 3. Make gravy with butter, onions, tomatoes, and spices. 4. Add grilled chicken and cream. 5. Simmer for 15 minutes. Serve with naan.",
+      "cuisine": "Indian",
+      "prep_time": "60 minutes",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 21,
+      "name": "Guacamole",
+      "ingredients": ["avocado", "tomatoes", "onions", "lime", "cilantro", "salt", "pepper"],
+      "instructions": "1. Mash ripe avocados. 2. Add diced tomatoes and onions. 3. Mix in lime juice, chopped cilantro. 4. Season with salt and pepper. 5. Stir gently. Serve with tortilla chips.",
+      "cuisine": "Mexican",
+      "prep_time": "10 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 22,
+      "name": "Chicken Biryani",
+      "ingredients": ["chicken", "rice", "onions", "yogurt", "biryani masala", "saffron", "ghee"],
+      "instructions": "1. Marinate chicken with yogurt and spices. 2. Cook rice 70% done. 3. Layer chicken and rice. 4. Add fried onions and saffron milk. 5. Cover and cook on low heat for 30 minutes. Serve with raita.",
+      "cuisine": "Indian",
+      "prep_time": "90 minutes",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 23,
+      "name": "Tacos",
+      "ingredients": ["tortillas", "ground beef", "onions", "tomatoes", "lettuce", "cheese", "taco seasoning"],
+      "instructions": "1. Cook ground beef with taco seasoning. 2. Warm tortillas. 3. Fill with beef, lettuce, tomatoes, cheese. 4. Add salsa and sour cream if desired. Serve immediately.",
+      "cuisine": "Mexican",
+      "prep_time": "25 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 24,
+      "name": "Pad Thai",
+      "ingredients": ["rice noodles", "shrimp", "eggs", "bean sprouts", "peanuts", "tamarind", "fish sauce"],
+      "instructions": "1. Soak rice noodles. 2. Stir-fry shrimp and set aside. 3. Scramble eggs. 4. Add noodles, tamarind, and fish sauce. 5. Add shrimp, bean sprouts. 6. Top with crushed peanuts. Serve hot.",
+      "cuisine": "Thai",
+      "prep_time": "30 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 25,
+      "name": "Spaghetti Bolognese",
+      "ingredients": ["spaghetti", "ground beef", "tomatoes", "onions", "garlic", "herbs", "parmesan"],
+      "instructions": "1. Cook spaghetti. 2. Brown ground beef with onions and garlic. 3. Add tomatoes and herbs. 4. Simmer for 30 minutes. 5. Serve sauce over spaghetti. 6. Top with parmesan cheese.",
+      "cuisine": "Italian",
+      "prep_time": "45 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 26,
+      "name": "Chicken Alfredo",
+      "ingredients": ["pasta", "chicken", "cream", "parmesan cheese", "butter", "garlic"],
+      "instructions": "1. Cook pasta. 2. Grill or sauté chicken. 3. Make Alfredo sauce with cream, butter, garlic, and parmesan. 4. Toss pasta with sauce. 5. Top with sliced chicken. Serve hot.",
+      "cuisine": "Italian",
+      "prep_time": "30 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 27,
+      "name": "Samosas",
+      "ingredients": ["potatoes", "peas", "onions", "flour", "spices", "oil"],
+      "instructions": "1. Make dough with flour and water. 2. Cook mashed potato filling with peas and spices. 3. Roll dough and cut into triangles. 4. Fill and seal. 5. Deep fry until golden. Serve with chutney.",
+      "cuisine": "Indian",
+      "prep_time": "60 minutes",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 28,
+      "name": "Hummus",
+      "ingredients": ["chickpeas", "tahini", "lemon", "garlic", "olive oil", "salt"],
+      "instructions": "1. Blend cooked chickpeas. 2. Add tahini, lemon juice, garlic. 3. Blend until smooth. 4. Add olive oil gradually. 5. Season with salt. Serve with pita bread.",
+      "cuisine": "Middle Eastern",
+      "prep_time": "15 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 29,
+      "name": "Fish Curry",
+      "ingredients": ["fish", "coconut milk", "tomatoes", "onions", "ginger", "curry powder", "oil"],
+      "instructions": "1. Sauté onions, ginger, and curry powder. 2. Add tomatoes and cook. 3. Add coconut milk and bring to boil. 4. Add fish pieces gently. 5. Simmer for 15 minutes. Serve with rice.",
+      "cuisine": "Indian",
+      "prep_time": "35 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 30,
+      "name": "Quesadilla",
+      "ingredients": ["tortillas", "cheese", "chicken", "peppers", "onions", "oil"],
+      "instructions": "1. Fill tortilla with cheese, cooked chicken, peppers, and onions. 2. Fold in half. 3. Cook in a pan until cheese melts and tortilla is crispy. 4. Flip halfway. Cut into wedges and serve.",
+      "cuisine": "Mexican",
+      "prep_time": "20 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 31,
+      "name": "Egg Bhurji",
+      "ingredients": ["eggs", "onions", "tomatoes", "green chili", "turmeric", "oil", "coriander"],
+      "instructions": "1. Heat oil and sauté onions. 2. Add chopped tomatoes and green chili. 3. Beat eggs and pour into pan. 4. Scramble with turmeric and salt. 5. Garnish with coriander. Serve with bread.",
+      "cuisine": "Indian",
+      "prep_time": "15 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 32,
+      "name": "Banana Bread",
+      "ingredients": ["bananas", "flour", "eggs", "sugar", "butter", "baking soda", "vanilla"],
+      "instructions": "1. Mash ripe bananas. 2. Mix with eggs, melted butter, and sugar. 3. Add flour, baking soda, and vanilla. 4. Pour into greased loaf pan. 5. Bake at 180°C for 50-60 minutes. Cool before slicing.",
+      "cuisine": "American",
+      "prep_time": "70 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 33,
+      "name": "Aloo Paratha",
+      "ingredients": ["flour", "potatoes", "onions", "green chili", "spices", "ghee"],
+      "instructions": "1. Make dough with flour and water. 2. Mash boiled potatoes with onions and spices. 3. Roll dough, stuff with potato filling. 4. Roll flat and cook on griddle with ghee. Serve with yogurt.",
+      "cuisine": "Indian",
+      "prep_time": "40 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 34,
+      "name": "Chicken Soup",
+      "ingredients": ["chicken", "vegetables", "onions", "garlic", "chicken broth", "herbs"],
+      "instructions": "1. Boil chicken in broth. 2. Remove chicken and shred. 3. Sauté vegetables. 4. Add back to broth with shredded chicken. 5. Simmer for 20 minutes. Season with herbs. Serve hot.",
+      "cuisine": "International",
+      "prep_time": "45 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 35,
+      "name": "Pav Bhaji",
+      "ingredients": ["potatoes", "tomatoes", "onions", "peas", "butter", "pav bhaji masala", "bread"],
+      "instructions": "1. Boil and mash vegetables. 2. Sauté onions and tomatoes. 3. Add mashed vegetables and pav bhaji masala. 4. Cook with butter. 5. Toast bread with butter. Serve bhaji with pav.",
+      "cuisine": "Indian",
+      "prep_time": "35 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 36,
+      "name": "Spring Rolls",
+      "ingredients": ["spring roll wrappers", "vegetables", "noodles", "soy sauce", "oil"],
+      "instructions": "1. Stir-fry vegetables and noodles with soy sauce. 2. Let filling cool. 3. Place filling on wrapper and roll tightly. 4. Seal edges with water. 5. Deep fry until golden. Serve with sweet chili sauce.",
+      "cuisine": "Asian",
+      "prep_time": "40 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 37,
+      "name": "Chole",
+      "ingredients": ["chickpeas", "onions", "tomatoes", "ginger", "garlic", "chole masala", "oil"],
+      "instructions": "1. Soak and cook chickpeas. 2. Sauté onions, ginger, garlic. 3. Add tomatoes and chole masala. 4. Add cooked chickpeas with water. 5. Simmer for 20 minutes. Serve with bhature or rice.",
+      "cuisine": "Indian",
+      "prep_time": "45 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 38,
+      "name": "Bruschetta",
+      "ingredients": ["bread", "tomatoes", "garlic", "basil", "olive oil", "salt"],
+      "instructions": "1. Toast bread slices. 2. Rub with garlic clove. 3. Top with chopped tomatoes, basil, and olive oil. 4. Season with salt. Serve immediately.",
+      "cuisine": "Italian",
+      "prep_time": "15 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 39,
+      "name": "Potato Salad",
+      "ingredients": ["potatoes", "eggs", "mayonnaise", "onions", "celery", "mustard", "salt"],
+      "instructions": "1. Boil potatoes and eggs. 2. Dice potatoes and eggs. 3. Mix with chopped onions and celery. 4. Add mayonnaise and mustard. 5. Season with salt and pepper. Chill before serving.",
+      "cuisine": "American",
+      "prep_time": "30 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 40,
+      "name": "Ramen",
+      "ingredients": ["ramen noodles", "eggs", "vegetables", "soy sauce", "chicken broth", "garlic", "ginger"],
+      "instructions": "1. Cook noodles and set aside. 2. Make broth with chicken stock, soy sauce, garlic, ginger. 3. Soft boil eggs. 4. Assemble: noodles, broth, vegetables, halved egg. Serve hot.",
+      "cuisine": "Japanese",
+      "prep_time": "25 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 41,
+      "name": "Palak Paneer",
+      "ingredients": ["spinach", "paneer", "onions", "tomatoes", "cream", "spices", "oil"],
+      "instructions": "1. Blanch spinach and blend. 2. Fry paneer cubes. 3. Sauté onions, tomatoes, and spices. 4. Add spinach puree. 5. Add paneer and cream. 6. Simmer for 10 minutes. Serve with naan.",
+      "cuisine": "Indian",
+      "prep_time": "35 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 42,
+      "name": "Coleslaw",
+      "ingredients": ["cabbage", "carrots", "mayonnaise", "vinegar", "sugar", "salt"],
+      "instructions": "1. Shred cabbage and carrots. 2. Mix mayonnaise, vinegar, and sugar. 3. Toss vegetables with dressing. 4. Season with salt. 5. Chill for 1 hour. Serve cold.",
+      "cuisine": "American",
+      "prep_time": "15 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 43,
+      "name": "Chicken Wings",
+      "ingredients": ["chicken wings", "flour", "garlic", "paprika", "oil", "hot sauce", "butter"],
+      "instructions": "1. Coat wings with flour and spices. 2. Deep fry until crispy. 3. Toss in sauce made from hot sauce and butter. 4. Serve with ranch dressing.",
+      "cuisine": "American",
+      "prep_time": "40 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 44,
+      "name": "Paneer Tikka",
+      "ingredients": ["paneer", "yogurt", "bell peppers", "onions", "tikka masala", "lemon", "oil"],
+      "instructions": "1. Marinate paneer and vegetables with yogurt and tikka masala. 2. Thread onto skewers. 3. Grill or bake at 200°C for 20 minutes. 4. Baste with oil. Serve with mint chutney.",
+      "cuisine": "Indian",
+      "prep_time": "40 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 45,
+      "name": "Mango Smoothie",
+      "ingredients": ["mango", "yogurt", "milk", "honey", "ice"],
+      "instructions": "1. Peel and chop ripe mangoes. 2. Blend with yogurt, milk, and honey. 3. Add ice and blend until smooth. Serve immediately.",
+      "cuisine": "International",
+      "prep_time": "5 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 46,
+      "name": "Chocolate Chip Cookies",
+      "ingredients": ["flour", "butter", "sugar", "eggs", "chocolate chips", "vanilla", "baking soda"],
+      "instructions": "1. Cream butter and sugar. 2. Beat in eggs and vanilla. 3. Mix in flour and baking soda. 4. Fold in chocolate chips. 5. Drop spoonfuls on baking sheet. 6. Bake at 180°C for 10-12 minutes.",
+      "cuisine": "American",
+      "prep_time": "25 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 47,
+      "name": "Fish and Chips",
+      "ingredients": ["fish", "potatoes", "flour", "beer", "oil", "salt", "vinegar"],
+      "instructions": "1. Cut potatoes into chips and fry. 2. Make batter with flour and beer. 3. Coat fish in batter. 4. Deep fry until golden. 5. Serve fish with chips, tartar sauce, and malt vinegar.",
+      "cuisine": "British",
+      "prep_time": "40 minutes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 48,
+      "name": "Caprese Salad",
+      "ingredients": ["tomatoes", "mozzarella", "basil", "olive oil", "balsamic vinegar", "salt"],
+      "instructions": "1. Slice tomatoes and mozzarella. 2. Arrange alternating slices on a plate. 3. Add fresh basil leaves. 4. Drizzle with olive oil and balsamic vinegar. 5. Season with salt. Serve immediately.",
+      "cuisine": "Italian",
+      "prep_time": "10 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 49,
+      "name": "Idli",
+      "ingredients": ["rice", "urad dal", "salt", "water"],
+      "instructions": "1. Soak rice and urad dal separately for 6 hours. 2. Grind into smooth batter. 3. Ferment overnight. 4. Pour into idli molds. 5. Steam for 10-12 minutes. Serve with chutney and sambar.",
+      "cuisine": "South Indian",
+      "prep_time": "30 minutes (plus soaking and fermentation)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 50,
+      "name": "Masala Dosa",
+      "ingredients": ["rice", "urad dal", "potatoes", "onions", "mustard seeds", "turmeric", "oil"],
+      "instructions": "1. Make dosa batter from fermented rice and lentils. 2. Make potato filling with mustard seeds, onions, turmeric. 3. Spread batter thin on hot griddle. 4. Add filling and fold. Serve with chutney and sambar.",
+      "cuisine": "South Indian",
+      "prep_time": "40 minutes (plus fermentation)",
+      "difficulty": "Hard"
+    }
+  ]
+}

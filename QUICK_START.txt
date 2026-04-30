@@ -1,0 +1,211 @@
+╔═══════════════════════════════════════════════════════════╗
+║      RECIPE CHATBOT - QUICK START GUIDE                   ║
+║         Cross-Platform (Windows & CentOS)                 ║
+╚═══════════════════════════════════════════════════════════╝
+
+📦 REQUIRED FILES (5 files total)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ app.py                    - Backend server
+✓ streamlit_ui.py           - Web interface
+✓ recipes.json              - Recipe database (50+ recipes)
+✓ requirements_task2.txt    - Python dependencies
+✓ README.md                 - Full documentation
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚀 SETUP (One-Time, 5 Minutes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 1: Install Python Dependencies
+────────────────────────────────────
+Windows:
+  pip install -r requirements_task2.txt
+
+CentOS/Linux:
+  pip3 install -r requirements_task2.txt
+
+Or manually:
+  pip install fastapi uvicorn pydantic requests streamlit
+
+STEP 2: Install Ollama
+───────────────────────
+Windows:
+  1. Download: https://ollama.com/download
+  2. Run installer
+  3. Ollama auto-starts
+
+CentOS/Linux:
+  curl -fsSL https://ollama.com/install.sh | sh
+
+STEP 3: Download AI Model
+──────────────────────────
+Both platforms:
+  ollama pull llama3.2:1b
+
+  (Downloads ~1.3GB, wait 2-3 minutes)
+
+Verify:
+  ollama list
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+▶️  RUNNING (Every Time You Use It)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Open TWO terminals:
+
+TERMINAL 1 - Backend:
+─────────────────────
+Windows:
+  python app.py
+
+CentOS/Linux:
+  python3 app.py
+
+Keep this window open!
+
+Expected output:
+  🍳 RECIPE CHATBOT API STARTING...
+  📚 Loaded 50 recipes
+  🌐 API at: http://localhost:8000
+
+
+TERMINAL 2 - Frontend:
+──────────────────────
+Both platforms:
+  streamlit run streamlit_ui.py
+
+Browser auto-opens at: http://localhost:8501
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💡 USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MODE 1: Search by Ingredients
+──────────────────────────────
+1. Select "🔍 Search by Ingredients"
+2. Enter: eggs, onions, tomatoes
+3. Click "Find Recipes"
+4. View results with match scores!
+
+Example Output:
+  - Classic Omelette (100% match)
+  - Egg Bhurji (90% match)
+  - Scrambled Eggs (85% match)
+
+
+MODE 2: Chat with Bot
+──────────────────────
+1. Select "💬 Chat with Bot"
+2. Type: "What can I make with chicken?"
+3. Get AI-powered suggestions!
+
+Example Queries:
+  • "I have rice and vegetables"
+  • "Quick breakfast recipes"
+  • "Easy Indian dishes"
+  • "Something with pasta"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 TEST QUERIES (For Demo/Verification)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Search Mode:
+  ✓ eggs, onions
+  ✓ chicken, tomatoes
+  ✓ rice, vegetables
+  ✓ pasta, cheese
+
+Chat Mode:
+  ✓ "What's a good breakfast?"
+  ✓ "I want something spicy"
+  ✓ "Easy recipes for beginners"
+  ✓ "Show me Indian dishes"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚡ SUPER QUICK COMMANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Setup (once):
+  pip install -r requirements_task2.txt
+  ollama pull llama3.2:1b
+
+Run (always):
+  Terminal 1: python app.py
+  Terminal 2: streamlit run streamlit_ui.py
+
+Stop:
+  Ctrl+C in both terminals
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 COMMON ISSUES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"Backend API not running"
+  → Make sure Terminal 1 is running python app.py
+
+"Module not found"
+  → Run: pip install -r requirements_task2.txt
+
+"Ollama not connected"
+  → Windows: Check system tray
+  → Linux: sudo systemctl start ollama
+
+"Port already in use"
+  → Windows: Restart computer
+  → Linux: pkill -f "python3 app.py"
+
+"Model not found"
+  → Run: ollama pull llama3.2:1b
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 SYSTEM REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Python 3.8+
+✓ 16GB RAM (8GB works with smaller model)
+✓ 5GB disk space
+✓ CPU only (no GPU needed!)
+✓ Windows 10/11 OR CentOS/Linux
+✓ Internet (setup only)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ VERIFICATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Quick Test:
+  1. Backend running? → Visit http://localhost:8000
+  2. Frontend running? → Visit http://localhost:8501
+  3. Search "eggs, onions" → Get Omelette recipe?
+  4. Chat "What can I make?" → Get AI response?
+
+If all YES → You're ready! 🎉
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💻 PLATFORM NOTES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Windows:
+  • Commands: python, pip
+  • Ollama: System tray icon
+  • First query: 3-5 seconds
+  • After that: 1-2 seconds
+
+CentOS/Linux:
+  • Commands: python3, pip3
+  • Ollama: systemd service
+  • Check: systemctl status ollama
+  • Same speed as Windows
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎉 YOU'RE DONE!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Total setup time: ~5 minutes
+Works on: Windows & CentOS
+No GPU needed: CPU only!
+Runs offline: After setup
+
+For detailed docs: See README.md
+For help: Read troubleshooting section
+
+Start cooking with AI! 🍳
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
